@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/sticky-footer-navbar.css" rel="stylesheet">
+    <title>PikaFlik - Group</title>
+</head>
+
+<body>
+
+
+    <!-- Navbar Begin -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">PikaFlik</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" id="userName">Default</a>
+                    </li>
+                    <li id="btnLogOut">
+                        <a href="#">Sign Out</a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Group</h1>
+                    <p>Members</p>
+
+                    <div class="member">
+                        <img src="assets/images/isaac.png" alt="Member Photo">
+                    </div>
+                    <div class="member">
+                        <img src="assets/images/mikeal.png" alt="Member Photo">
+                    </div>
+                    <div class="member">
+                        <img src="assets/images/ben.png" alt="Member Photo">
+                    </div>
+                    <div class="member">
+                        <img src="assets/images/jaime.png" alt="Member Photo">
+                    </div>
+
+                </div>
+                <div class="col-md-4 right-border">
+                    <h2 class="center">Features</h2>
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <p>Genre</p>
+                        </div>
+                        <div class="col-md-8">
+                            <select class="form-control" id="genre">
+                                <option>Action</option>
+                                <option>Comedy</option>
+                                <option>Documentary</option>
+                                <option>Drama</option>
+                                <option>Horror</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <p>Year</p>
+                        </div>
+                        <div class="col-md-8">
+                            <select class="form-control" id="year">
+                                <option>Silent 1890-1929</option>
+                                <option>Classic 1930-1969</option>
+                                <option>Modern 1970-1999</option>
+                                <option>Contemporary 2000-Now</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button class="btn btn-primary" id="groupSubmit">Submit</button>
+
+                        </div>
+
+                        <div class="col-md-4">
+
+                            <!-- <button class="btn btn-secondary" id="resetSubmit">Reset All Selections</button> -->
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <button class="btn btn-primary">
+                        <a href="movie-tests.html">Movie List</a>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- group page results row -->
+
+    <div class="container hide" id='winResults'>
+
+        <div class="row" class="results">
+            <div class="col-md-12">
+                <h2>Top Pick:</h2>
+                <h2 id='pickHeader'>Top Pick!</h2>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4" id='topMoviePoster'>
+               
+            </div>
+
+            <div class="col-md-6" id='topMovieInfo'>
+                   
+                </div>
+        </div>
+
+
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Google's Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- My Custom js -->
+    <script src="assets/js/app.js"></script>
+    <!-- <script src="assets/js/movies.js"></script> -->
+
+</body>
+
+</html>

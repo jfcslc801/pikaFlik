@@ -1,0 +1,162 @@
+/* div for jquery movie input */
+body {
+    margin-top: 60px;
+}
+
+
+#display-movies-here{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-gap: 10px;
+
+
+}
+/* h2 styling */
+h2{
+    /* margin-top: 60px; */
+    text-align: center;
+}
+
+/* Image styling */
+img{
+    width: 100%;
+    /* margin: 10px; */
+
+    /* box-shadow: 5px 5px;
+    box-shadow: 15px 15px; */
+
+    color: rgb(211, 211, 212);
+}
+
+/* Media query 980px */
+@media only screen and (max-width: 980px) {
+    body {
+        background-color: red;
+    }
+    img{
+        width: 100%;
+        /* margin: 10px; */
+        
+    }
+    /* css grid for movies */    
+    #display-movies-here{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        grid-gap: 10px;
+    
+    
+    }
+}
+
+/* media query 760px */
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: rebeccapurple;
+    }
+    img{
+        width: 100%;
+        margin: 10px;
+        
+    }
+    /* css grid for movies */    
+    #display-movies-here{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+/* media query 640px */
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: lightblue;
+    }
+    img{
+        width: 100%;
+        margin: 10px;
+        
+    }
+    /* css grid for movies */
+    #display-movies-here{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+
+#first-row {
+    margin-top: 33px;
+}
+#plus-box {
+    border: 5px solid black;
+    padding: 38px;
+    font-size: 31px;
+    margin: auto;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    width: 130px;
+    height: 120px;
+}
+
+.group-box {
+    border: 5px solid black;
+    padding: 25px;
+    /* font-size: 31px; */
+    margin: auto;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    width: 130px;
+    height: 120px;
+}
+
+.top-height {
+    margin-top: 25px;
+}
+
+.right-border {
+    border: 1px solid black
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.member {
+    height: 50px;
+    width: 50px;
+    /* border: solid 1px black; */
+    float: left;
+    margin: 25px 50px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.topMoviePoster{
+    width: 275px;
+    height: auto;
+}
+
+
+.submit {
+
+    margin-top: 55px;
+
+}
+
+#secondRow {
+    margin-top: 55px;
+}
+
